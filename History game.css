@@ -1,0 +1,14 @@
+body {
+    font-family: 'PixelFont', sans-serif; /* Set the default font */
+    text-align: center;
+    transition: background-color 0.3s, color 0.3s;
+    background-image: url('computer.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+@font-face {
+    font-family: 'PixelFont';
+    src: url('Pixelfont.ttf') format('truetype'); /* Corrected format declaration */
+    /* Add additional src declarations for different font formats if needed */
+}
